@@ -1,5 +1,4 @@
-# labs-root-directory
-A root repo consisting of all 7 labs that aim to teach me Docker, LLMs, Redis, and RAG.
+# Root Repo Containing All Labs
 
 ## Lab 01: LLM Fundamentals
 **Link:** https://github.com/Hairum-Qureshi/lab-01-llm-fundamentals
