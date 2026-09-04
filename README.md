@@ -17,7 +17,7 @@ An interactive LLM playground exploring basic LLM API communication, prompt hand
 **Focus:**
 LLM APIs · Streaming · Structured Output · Prompting · API Integration
 
-**Status:** In Progress
+**Status:** Completed
 
 ---
 
