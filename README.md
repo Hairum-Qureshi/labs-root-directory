@@ -1,18 +1,20 @@
-# Root Repo Containing All Labs
+# AI Engineering Labs
 
 A collection of 7 focused full-stack engineering labs designed to explore the building blocks behind modern AI applications.
 
 Each lab is built around a single engineering question, with an interactive React frontend and a NestJS backend. The goal is to understand the underlying concepts rather than simply following tutorials or relying on high-level abstractions.
 
 ## Labs
+
 ### Lab 01 — LLM Fundamentals
+
 **Link:** https://github.com/Hairum-Qureshi/lab-01-llm-fundamentals
 
 **Engineering Question:**
 How does my backend communicate with an LLM?
 
 **Description:**
-An interactive LLM playground exploring basic LLM API communication, prompt handling, streaming responses, structured outputs, and API error handling.
+An interactive chat application exploring LLM API communication, conversation context, streaming responses, structured outputs, and API error handling.
 
 **Focus:**
 LLM APIs · Streaming · Structured Output · Prompting · API Integration
@@ -22,6 +24,7 @@ LLM APIs · Streaming · Structured Output · Prompting · API Integration
 ---
 
 ### Lab 02 — Agent Tool Calling
+
 **Link:** TBD
 
 **Engineering Question:**
@@ -38,6 +41,7 @@ Agents · Tool Calling · Function Schemas · Agent Loops
 ---
 
 ### Lab 03 — Redis Cache Explorer
+
 **Link:** TBD
 
 **Engineering Question:**
@@ -54,6 +58,7 @@ Redis · Caching · TTL · Invalidation · PostgreSQL · Docker
 ---
 
 ### Lab 04 — RAG Explorer
+
 **Link:** TBD
 
 **Engineering Question:**
@@ -69,7 +74,25 @@ RAG · Embeddings · Vector Search · pgvector · Retrieval
 
 ---
 
-### Lab 05 — Background Job Queue
+### Lab 05 — Stripe Subscriptions
+
+**Link:** TBD
+
+**Engineering Question:**
+How should an application handle subscription payments and keep its internal subscription state synchronized with Stripe?
+
+**Description:**
+A small SaaS application exploring Stripe Checkout, subscription lifecycle events, webhooks, subscription state, usage limits, and payment failures.
+
+**Focus:**
+Stripe · Subscriptions · Checkout · Webhooks · Billing · Usage Limits
+
+**Status:** Planned
+
+---
+
+### Lab 06 — Background Job Queue
+
 **Link:** TBD
 
 **Engineering Question:**
@@ -85,39 +108,25 @@ Redis · BullMQ · Background Jobs · Workers · Retries · Async Processing
 
 ---
 
-### Lab 06 — Agent + RAG
-**Link:** TBD
-
-**Engineering Question:**
-How can an agent decide when it needs external knowledge?
-
-**Description:**
-A combined agent and retrieval system exploring intelligent tool selection, knowledge retrieval, multi-step reasoning workflows, and tool failures.
-
-**Focus:**
-Agents · RAG · Tool Calling · Retrieval · Agent Loops
-
-**Status:** Planned
-
----
-
 ### Lab 07 — Production AI System
+
 **Link:** TBD
 
 **Engineering Question:**
 What changes when an AI application needs to operate like a real production system?
 
 **Description:**
-A productionization lab combining concepts from the previous labs with containerization, deployment, observability, resilience, and system monitoring.
+A productionization lab combining concepts from the previous labs with agentic workflows, RAG, containerization, deployment, observability, resilience, and system monitoring.
 
 **Focus:**
-Docker · AWS · Observability · Resilience · Deployment · System Design
+Agents · RAG · Docker · AWS · Observability · Resilience · Deployment · System Design
 
 **Status:** Planned
 
 ---
 
 ## Learning Progression
+
 The labs are intentionally ordered so that each one builds on concepts introduced previously.
 
 ```text
@@ -129,9 +138,9 @@ Redis & Caching
        ↓
 RAG & Vector Search
        ↓
-Background Jobs
+Stripe Subscriptions
        ↓
-Agent + RAG
+Background Jobs
        ↓
 Production AI System
 ```
@@ -149,13 +158,14 @@ The goal is not to complete every lab before building a larger application. Each
 ### Exploring
 
 * LLM APIs
-* Server-Sent Events (SSE) (i.e. text streaming)
+* Server-Sent Events (SSE)
 * Structured Outputs
 * Agent Tool Calling
 * PostgreSQL
 * Redis
 * pgvector
 * BullMQ
+* Stripe
 * Docker
 * AWS
 * RAG
