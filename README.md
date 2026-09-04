@@ -9,7 +9,8 @@ Each lab is built around a single engineering question, with an interactive Reac
 ### Lab 01 — LLM Fundamentals
 
 **Link:** https://github.com/Hairum-Qureshi/lab-01-llm-fundamentals
-**Deployment:** https://lab-01-llm-fundamentals-frontend.vercel.app/
+
+**Deployment:** https://lab-01-llm-fundamentals-frontend.vercel.app
 
 **Engineering Question:**
 How does my backend communicate with an LLM?
